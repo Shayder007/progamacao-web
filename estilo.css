@@ -1,3 +1,74 @@
 body {
-    background-color: rgb(90, 85, 75);
+    background-image: linear-gradient(to right, rgb(247, 245, 245), rgb(255, 255, 255), rgb(109, 97, 58));
   }
+h1 {
+    color: #756419;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2{
+    color: #a38a1b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+p{
+    color: #413605;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    color: #a38a1b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+a{
+    color: #a38a1b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+table{
+    color: #3d340c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    background-color: #505209;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover {
+    opacity: 0.9;
+    animation: anima-botao 1s infinite;
+  }
+  
+  @keyframes anima-botao {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(1.1); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+img{
+    border-radius: 14px;
+    display: block;
+    margin: 0 auto;
+}
