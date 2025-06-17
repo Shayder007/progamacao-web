@@ -38,6 +38,29 @@ table{
     color: #3d340c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.button{
+    background-color: #505209;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button:hover {
+    opacity: 0.9;
+    animation: anima-botao 1s infinite;
+  }
+  
+img{
+    border-radius: 14px;
+    display: block;
+    margin: 0 auto;
+}
 button{
     background-color: #505209;
     color: rgb(255, 255, 255);
@@ -67,8 +90,3 @@ button:hover {
       transform: scale(1); 
     }
   }
-img{
-    border-radius: 14px;
-    display: block;
-    margin: 0 auto;
-}
